@@ -1,0 +1,18 @@
+/* Subtle branding */
+.wy-side-nav-search {
+  background: #0f172a;
+}
+
+.wy-side-nav-search input[type="text"] {
+  border-radius: 10px;
+}
+
+.wy-nav-top {
+  background: #0f172a;
+}
+
+/* Make code blocks slightly nicer */
+.rst-content pre.literal-block,
+.rst-content div[class^="highlight"] pre {
+  border-radius: 10px;
+}
