@@ -17,6 +17,9 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
     "sphinx.ext.viewcode",
+    "nbsphinx",
+    "sphinx.ext.autosummary",
+
 ]
 
 templates_path = ["_templates"]
@@ -31,7 +34,12 @@ html_theme_options = {
     "navigation_depth": 4,
     "titles_only": False,
     "style_external_links": True,
+    
 }
 
 html_static_path = ["_static"]
 html_css_files = ["custom.css"]
+
+
+autosummary_generate = True
+

@@ -22,6 +22,5 @@ Federated Spatial Representation Learning for Spatial Omics.
    :maxdepth: 2
    :caption: Contents
 
-   install
    quickstart
    tutorial
