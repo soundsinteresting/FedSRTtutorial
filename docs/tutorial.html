@@ -219,18 +219,6 @@ sparse matrix constructed in 0.4033 seconds
 <div class="output_area docutils container">
 <div class="highlight"><pre>
 High variable genes extracted
-(4226, 33538)
-(4384, 33538)
-(4789, 33538)
-(4634, 33538)
-(3661, 33538)
-(3498, 33538)
-(4110, 33538)
-(4015, 33538)
-(3639, 33538)
-(3673, 33538)
-(3592, 33538)
-(3460, 33538)
 Median of mean: 6.1658
 Median of mean: 6.1658
 Median of mean: 6.2556
@@ -258,7 +246,7 @@ There are 12 clients
 <br/></pre></div>
 </div>
 </div>
-<div class="nbinput docutils container">
+<div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[15]:
 </pre></div>
 </div>
@@ -279,37 +267,6 @@ There are 12 clients
     <span class="c1">#break</span>
 </pre></div>
 </div>
-</div>
-<div class="nboutput nblast docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
-(4226, 2) (4226, 5000) (4226,)
-(4226, 5003)
-(4384, 2) (4384, 5000) (4384,)
-(4384, 5003)
-(4789, 2) (4789, 5000) (4789,)
-(4789, 5003)
-(4634, 2) (4634, 5000) (4634,)
-(4634, 5003)
-(3661, 2) (3661, 5000) (3661,)
-(3661, 5003)
-(3498, 2) (3498, 5000) (3498,)
-(3498, 5003)
-(4110, 2) (4110, 5000) (4110,)
-(4110, 5003)
-(4015, 2) (4015, 5000) (4015,)
-(4015, 5003)
-(3639, 2) (3639, 5000) (3639,)
-(3639, 5003)
-(3673, 2) (3673, 5000) (3673,)
-(3673, 5003)
-(3592, 2) (3592, 5000) (3592,)
-(3592, 5003)
-(3460, 2) (3460, 5000) (3460,)
-(3460, 5003)
-</pre></div></div>
 </div>
 <div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
@@ -390,67 +347,6 @@ Spectral initialize completes
 </div>
 <div class="output_area docutils container">
 <div class="highlight"><pre>
-clustering ...
-fitting ...
-  |======================================================================| 100%
-4226
-0.541358258459018
-clustering ...
-fitting ...
-  |======================================================================| 100%
-4384
-0.5516569659722836
-clustering ...
-fitting ...
-  |======================================================================| 100%
-4789
-0.44720083208245337
-clustering ...
-fitting ...
-  |======================================================================| 100%
-4634
-0.5462876716005972
-clustering ...
-fitting ...
-  |======================================================================| 100%
-3661
-0.42556061905547815
-clustering ...
-fitting ...
-  |======================================================================| 100%
-3498
-0.38426300830652454
-clustering ...
-fitting ...
-  |======================================================================| 100%
-4110
-0.6263510663701519
-clustering ...
-fitting ...
-  |======================================================================| 100%
-4015
-0.7294079165411267
-clustering ...
-fitting ...
-  |======================================================================| 100%
-3639
-0.5824659210998271
-clustering ...
-fitting ...
-  |======================================================================| 100%
-3673
-0.6536121888923482
-clustering ...
-fitting ...
-  |======================================================================| 100%
-3592
-0.6045303431053055
-clustering ...
-fitting ...
-  |======================================================================| 100%
-3460
-0.5817936763122508
-----------------------------------------
 adjusted_rand_score: all sample avg 0.5562, 8 sample avg: 0.5315
 </pre></div></div>
 </div>
@@ -617,7 +513,7 @@ Text(0.5, 1.0, &#39;Log distance histogram&#39;)
 </div>
 </div>
 <p>Save embeddings to txt file</p>
-<div class="nbinput docutils container">
+<div class="nbinput nblast docutils container">
 <div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[17]:
 </pre></div>
 </div>
@@ -630,37 +526,6 @@ Text(0.5, 1.0, &#39;Log distance histogram&#39;)
     <span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;resultstoplot/attack_embeddings_</span><span class="si">{</span><span class="n">i</span><span class="si">}</span><span class="s1">.csv&#39;</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 </div>
-</div>
-<div class="nboutput nblast docutils container">
-<div class="prompt empty docutils container">
-</div>
-<div class="output_area docutils container">
-<div class="highlight"><pre>
-[&#39;factor_0&#39;, &#39;factor_1&#39;, &#39;factor_2&#39;, &#39;factor_3&#39;, &#39;factor_4&#39;, &#39;factor_5&#39;, &#39;factor_6&#39;, &#39;factor_7&#39;, &#39;factor_8&#39;, &#39;factor_9&#39;, &#39;factor_10&#39;, &#39;factor_11&#39;, &#39;factor_12&#39;, &#39;factor_13&#39;, &#39;factor_14&#39;, &#39;factor_15&#39;, &#39;factor_16&#39;, &#39;factor_17&#39;, &#39;factor_18&#39;, &#39;factor_19&#39;, &#39;factor_20&#39;, &#39;factor_21&#39;, &#39;factor_22&#39;, &#39;factor_23&#39;, &#39;factor_24&#39;, &#39;factor_25&#39;, &#39;factor_26&#39;, &#39;factor_27&#39;, &#39;factor_28&#39;, &#39;factor_29&#39;, &#39;factor_30&#39;, &#39;factor_31&#39;, &#39;factor_32&#39;, &#39;factor_33&#39;, &#39;factor_34&#39;, &#39;factor_35&#39;, &#39;factor_36&#39;, &#39;factor_37&#39;, &#39;factor_38&#39;, &#39;factor_39&#39;, &#39;factor_40&#39;, &#39;factor_41&#39;, &#39;factor_42&#39;, &#39;factor_43&#39;, &#39;factor_44&#39;, &#39;factor_45&#39;, &#39;factor_46&#39;, &#39;factor_47&#39;, &#39;factor_48&#39;, &#39;factor_49&#39;, &#39;factor_50&#39;, &#39;factor_51&#39;, &#39;factor_52&#39;, &#39;factor_53&#39;, &#39;factor_54&#39;, &#39;factor_55&#39;, &#39;factor_56&#39;, &#39;factor_57&#39;, &#39;factor_58&#39;, &#39;factor_59&#39;, &#39;factor_60&#39;, &#39;factor_61&#39;, &#39;factor_62&#39;, &#39;factor_63&#39;, &#39;factor_64&#39;, &#39;factor_65&#39;, &#39;factor_66&#39;, &#39;factor_67&#39;, &#39;factor_68&#39;, &#39;factor_69&#39;, &#39;factor_70&#39;, &#39;factor_71&#39;, &#39;factor_72&#39;, &#39;factor_73&#39;, &#39;factor_74&#39;, &#39;factor_75&#39;, &#39;factor_76&#39;, &#39;factor_77&#39;, &#39;factor_78&#39;, &#39;factor_79&#39;, &#39;factor_80&#39;, &#39;factor_81&#39;, &#39;factor_82&#39;, &#39;factor_83&#39;, &#39;factor_84&#39;, &#39;factor_85&#39;, &#39;factor_86&#39;, &#39;factor_87&#39;, &#39;factor_88&#39;, &#39;factor_89&#39;, &#39;x&#39;, &#39;y&#39;]
-(4226, 92) 92
-[&#39;factor_0&#39;, &#39;factor_1&#39;, &#39;factor_2&#39;, &#39;factor_3&#39;, &#39;factor_4&#39;, &#39;factor_5&#39;, &#39;factor_6&#39;, &#39;factor_7&#39;, &#39;factor_8&#39;, &#39;factor_9&#39;, &#39;factor_10&#39;, &#39;factor_11&#39;, &#39;factor_12&#39;, &#39;factor_13&#39;, &#39;factor_14&#39;, &#39;factor_15&#39;, &#39;factor_16&#39;, &#39;factor_17&#39;, &#39;factor_18&#39;, &#39;factor_19&#39;, &#39;factor_20&#39;, &#39;factor_21&#39;, &#39;factor_22&#39;, &#39;factor_23&#39;, &#39;factor_24&#39;, &#39;factor_25&#39;, &#39;factor_26&#39;, &#39;factor_27&#39;, &#39;factor_28&#39;, &#39;factor_29&#39;, &#39;factor_30&#39;, &#39;factor_31&#39;, &#39;factor_32&#39;, &#39;factor_33&#39;, &#39;factor_34&#39;, &#39;factor_35&#39;, &#39;factor_36&#39;, &#39;factor_37&#39;, &#39;factor_38&#39;, &#39;factor_39&#39;, &#39;factor_40&#39;, &#39;factor_41&#39;, &#39;factor_42&#39;, &#39;factor_43&#39;, &#39;factor_44&#39;, &#39;factor_45&#39;, &#39;factor_46&#39;, &#39;factor_47&#39;, &#39;factor_48&#39;, &#39;factor_49&#39;, &#39;factor_50&#39;, &#39;factor_51&#39;, &#39;factor_52&#39;, &#39;factor_53&#39;, &#39;factor_54&#39;, &#39;factor_55&#39;, &#39;factor_56&#39;, &#39;factor_57&#39;, &#39;factor_58&#39;, &#39;factor_59&#39;, &#39;factor_60&#39;, &#39;factor_61&#39;, &#39;factor_62&#39;, &#39;factor_63&#39;, &#39;factor_64&#39;, &#39;factor_65&#39;, &#39;factor_66&#39;, &#39;factor_67&#39;, &#39;factor_68&#39;, &#39;factor_69&#39;, &#39;factor_70&#39;, &#39;factor_71&#39;, &#39;factor_72&#39;, &#39;factor_73&#39;, &#39;factor_74&#39;, &#39;factor_75&#39;, &#39;factor_76&#39;, &#39;factor_77&#39;, &#39;factor_78&#39;, &#39;factor_79&#39;, &#39;factor_80&#39;, &#39;factor_81&#39;, &#39;factor_82&#39;, &#39;factor_83&#39;, &#39;factor_84&#39;, &#39;factor_85&#39;, &#39;factor_86&#39;, &#39;factor_87&#39;, &#39;factor_88&#39;, &#39;factor_89&#39;, &#39;x&#39;, &#39;y&#39;]
-(4384, 92) 92
-[&#39;factor_0&#39;, &#39;factor_1&#39;, &#39;factor_2&#39;, &#39;factor_3&#39;, &#39;factor_4&#39;, &#39;factor_5&#39;, &#39;factor_6&#39;, &#39;factor_7&#39;, &#39;factor_8&#39;, &#39;factor_9&#39;, &#39;factor_10&#39;, &#39;factor_11&#39;, &#39;factor_12&#39;, &#39;factor_13&#39;, &#39;factor_14&#39;, &#39;factor_15&#39;, &#39;factor_16&#39;, &#39;factor_17&#39;, &#39;factor_18&#39;, &#39;factor_19&#39;, &#39;factor_20&#39;, &#39;factor_21&#39;, &#39;factor_22&#39;, &#39;factor_23&#39;, &#39;factor_24&#39;, &#39;factor_25&#39;, &#39;factor_26&#39;, &#39;factor_27&#39;, &#39;factor_28&#39;, &#39;factor_29&#39;, &#39;factor_30&#39;, &#39;factor_31&#39;, &#39;factor_32&#39;, &#39;factor_33&#39;, &#39;factor_34&#39;, &#39;factor_35&#39;, &#39;factor_36&#39;, &#39;factor_37&#39;, &#39;factor_38&#39;, &#39;factor_39&#39;, &#39;factor_40&#39;, &#39;factor_41&#39;, &#39;factor_42&#39;, &#39;factor_43&#39;, &#39;factor_44&#39;, &#39;factor_45&#39;, &#39;factor_46&#39;, &#39;factor_47&#39;, &#39;factor_48&#39;, &#39;factor_49&#39;, &#39;factor_50&#39;, &#39;factor_51&#39;, &#39;factor_52&#39;, &#39;factor_53&#39;, &#39;factor_54&#39;, &#39;factor_55&#39;, &#39;factor_56&#39;, &#39;factor_57&#39;, &#39;factor_58&#39;, &#39;factor_59&#39;, &#39;factor_60&#39;, &#39;factor_61&#39;, &#39;factor_62&#39;, &#39;factor_63&#39;, &#39;factor_64&#39;, &#39;factor_65&#39;, &#39;factor_66&#39;, &#39;factor_67&#39;, &#39;factor_68&#39;, &#39;factor_69&#39;, &#39;factor_70&#39;, &#39;factor_71&#39;, &#39;factor_72&#39;, &#39;factor_73&#39;, &#39;factor_74&#39;, &#39;factor_75&#39;, &#39;factor_76&#39;, &#39;factor_77&#39;, &#39;factor_78&#39;, &#39;factor_79&#39;, &#39;factor_80&#39;, &#39;factor_81&#39;, &#39;factor_82&#39;, &#39;factor_83&#39;, &#39;factor_84&#39;, &#39;factor_85&#39;, &#39;factor_86&#39;, &#39;factor_87&#39;, &#39;factor_88&#39;, &#39;factor_89&#39;, &#39;x&#39;, &#39;y&#39;]
-(4789, 92) 92
-[&#39;factor_0&#39;, &#39;factor_1&#39;, &#39;factor_2&#39;, &#39;factor_3&#39;, &#39;factor_4&#39;, &#39;factor_5&#39;, &#39;factor_6&#39;, &#39;factor_7&#39;, &#39;factor_8&#39;, &#39;factor_9&#39;, &#39;factor_10&#39;, &#39;factor_11&#39;, &#39;factor_12&#39;, &#39;factor_13&#39;, &#39;factor_14&#39;, &#39;factor_15&#39;, &#39;factor_16&#39;, &#39;factor_17&#39;, &#39;factor_18&#39;, &#39;factor_19&#39;, &#39;factor_20&#39;, &#39;factor_21&#39;, &#39;factor_22&#39;, &#39;factor_23&#39;, &#39;factor_24&#39;, &#39;factor_25&#39;, &#39;factor_26&#39;, &#39;factor_27&#39;, &#39;factor_28&#39;, &#39;factor_29&#39;, &#39;factor_30&#39;, &#39;factor_31&#39;, &#39;factor_32&#39;, &#39;factor_33&#39;, &#39;factor_34&#39;, &#39;factor_35&#39;, &#39;factor_36&#39;, &#39;factor_37&#39;, &#39;factor_38&#39;, &#39;factor_39&#39;, &#39;factor_40&#39;, &#39;factor_41&#39;, &#39;factor_42&#39;, &#39;factor_43&#39;, &#39;factor_44&#39;, &#39;factor_45&#39;, &#39;factor_46&#39;, &#39;factor_47&#39;, &#39;factor_48&#39;, &#39;factor_49&#39;, &#39;factor_50&#39;, &#39;factor_51&#39;, &#39;factor_52&#39;, &#39;factor_53&#39;, &#39;factor_54&#39;, &#39;factor_55&#39;, &#39;factor_56&#39;, &#39;factor_57&#39;, &#39;factor_58&#39;, &#39;factor_59&#39;, &#39;factor_60&#39;, &#39;factor_61&#39;, &#39;factor_62&#39;, &#39;factor_63&#39;, &#39;factor_64&#39;, &#39;factor_65&#39;, &#39;factor_66&#39;, &#39;factor_67&#39;, &#39;factor_68&#39;, &#39;factor_69&#39;, &#39;factor_70&#39;, &#39;factor_71&#39;, &#39;factor_72&#39;, &#39;factor_73&#39;, &#39;factor_74&#39;, &#39;factor_75&#39;, &#39;factor_76&#39;, &#39;factor_77&#39;, &#39;factor_78&#39;, &#39;factor_79&#39;, &#39;factor_80&#39;, &#39;factor_81&#39;, &#39;factor_82&#39;, &#39;factor_83&#39;, &#39;factor_84&#39;, &#39;factor_85&#39;, &#39;factor_86&#39;, &#39;factor_87&#39;, &#39;factor_88&#39;, &#39;factor_89&#39;, &#39;x&#39;, &#39;y&#39;]
-(4634, 92) 92
-[&#39;factor_0&#39;, &#39;factor_1&#39;, &#39;factor_2&#39;, &#39;factor_3&#39;, &#39;factor_4&#39;, &#39;factor_5&#39;, &#39;factor_6&#39;, &#39;factor_7&#39;, &#39;factor_8&#39;, &#39;factor_9&#39;, &#39;factor_10&#39;, &#39;factor_11&#39;, &#39;factor_12&#39;, &#39;factor_13&#39;, &#39;factor_14&#39;, &#39;factor_15&#39;, &#39;factor_16&#39;, &#39;factor_17&#39;, &#39;factor_18&#39;, &#39;factor_19&#39;, &#39;factor_20&#39;, &#39;factor_21&#39;, &#39;factor_22&#39;, &#39;factor_23&#39;, &#39;factor_24&#39;, &#39;factor_25&#39;, &#39;factor_26&#39;, &#39;factor_27&#39;, &#39;factor_28&#39;, &#39;factor_29&#39;, &#39;factor_30&#39;, &#39;factor_31&#39;, &#39;factor_32&#39;, &#39;factor_33&#39;, &#39;factor_34&#39;, &#39;factor_35&#39;, &#39;factor_36&#39;, &#39;factor_37&#39;, &#39;factor_38&#39;, &#39;factor_39&#39;, &#39;factor_40&#39;, &#39;factor_41&#39;, &#39;factor_42&#39;, &#39;factor_43&#39;, &#39;factor_44&#39;, &#39;factor_45&#39;, &#39;factor_46&#39;, &#39;factor_47&#39;, &#39;factor_48&#39;, &#39;factor_49&#39;, &#39;factor_50&#39;, &#39;factor_51&#39;, &#39;factor_52&#39;, &#39;factor_53&#39;, &#39;factor_54&#39;, &#39;factor_55&#39;, &#39;factor_56&#39;, &#39;factor_57&#39;, &#39;factor_58&#39;, &#39;factor_59&#39;, &#39;factor_60&#39;, &#39;factor_61&#39;, &#39;factor_62&#39;, &#39;factor_63&#39;, &#39;factor_64&#39;, &#39;factor_65&#39;, &#39;factor_66&#39;, &#39;factor_67&#39;, &#39;factor_68&#39;, &#39;factor_69&#39;, &#39;factor_70&#39;, &#39;factor_71&#39;, &#39;factor_72&#39;, &#39;factor_73&#39;, &#39;factor_74&#39;, &#39;factor_75&#39;, &#39;factor_76&#39;, &#39;factor_77&#39;, &#39;factor_78&#39;, &#39;factor_79&#39;, &#39;factor_80&#39;, &#39;factor_81&#39;, &#39;factor_82&#39;, &#39;factor_83&#39;, &#39;factor_84&#39;, &#39;factor_85&#39;, &#39;factor_86&#39;, &#39;factor_87&#39;, &#39;factor_88&#39;, &#39;factor_89&#39;, &#39;x&#39;, &#39;y&#39;]
-(3661, 92) 92
-[&#39;factor_0&#39;, &#39;factor_1&#39;, &#39;factor_2&#39;, &#39;factor_3&#39;, &#39;factor_4&#39;, &#39;factor_5&#39;, &#39;factor_6&#39;, &#39;factor_7&#39;, &#39;factor_8&#39;, &#39;factor_9&#39;, &#39;factor_10&#39;, &#39;factor_11&#39;, &#39;factor_12&#39;, &#39;factor_13&#39;, &#39;factor_14&#39;, &#39;factor_15&#39;, &#39;factor_16&#39;, &#39;factor_17&#39;, &#39;factor_18&#39;, &#39;factor_19&#39;, &#39;factor_20&#39;, &#39;factor_21&#39;, &#39;factor_22&#39;, &#39;factor_23&#39;, &#39;factor_24&#39;, &#39;factor_25&#39;, &#39;factor_26&#39;, &#39;factor_27&#39;, &#39;factor_28&#39;, &#39;factor_29&#39;, &#39;factor_30&#39;, &#39;factor_31&#39;, &#39;factor_32&#39;, &#39;factor_33&#39;, &#39;factor_34&#39;, &#39;factor_35&#39;, &#39;factor_36&#39;, &#39;factor_37&#39;, &#39;factor_38&#39;, &#39;factor_39&#39;, &#39;factor_40&#39;, &#39;factor_41&#39;, &#39;factor_42&#39;, &#39;factor_43&#39;, &#39;factor_44&#39;, &#39;factor_45&#39;, &#39;factor_46&#39;, &#39;factor_47&#39;, &#39;factor_48&#39;, &#39;factor_49&#39;, &#39;factor_50&#39;, &#39;factor_51&#39;, &#39;factor_52&#39;, &#39;factor_53&#39;, &#39;factor_54&#39;, &#39;factor_55&#39;, &#39;factor_56&#39;, &#39;factor_57&#39;, &#39;factor_58&#39;, &#39;factor_59&#39;, &#39;factor_60&#39;, &#39;factor_61&#39;, &#39;factor_62&#39;, &#39;factor_63&#39;, &#39;factor_64&#39;, &#39;factor_65&#39;, &#39;factor_66&#39;, &#39;factor_67&#39;, &#39;factor_68&#39;, &#39;factor_69&#39;, &#39;factor_70&#39;, &#39;factor_71&#39;, &#39;factor_72&#39;, &#39;factor_73&#39;, &#39;factor_74&#39;, &#39;factor_75&#39;, &#39;factor_76&#39;, &#39;factor_77&#39;, &#39;factor_78&#39;, &#39;factor_79&#39;, &#39;factor_80&#39;, &#39;factor_81&#39;, &#39;factor_82&#39;, &#39;factor_83&#39;, &#39;factor_84&#39;, &#39;factor_85&#39;, &#39;factor_86&#39;, &#39;factor_87&#39;, &#39;factor_88&#39;, &#39;factor_89&#39;, &#39;x&#39;, &#39;y&#39;]
-(3498, 92) 92
-[&#39;factor_0&#39;, &#39;factor_1&#39;, &#39;factor_2&#39;, &#39;factor_3&#39;, &#39;factor_4&#39;, &#39;factor_5&#39;, &#39;factor_6&#39;, &#39;factor_7&#39;, &#39;factor_8&#39;, &#39;factor_9&#39;, &#39;factor_10&#39;, &#39;factor_11&#39;, &#39;factor_12&#39;, &#39;factor_13&#39;, &#39;factor_14&#39;, &#39;factor_15&#39;, &#39;factor_16&#39;, &#39;factor_17&#39;, &#39;factor_18&#39;, &#39;factor_19&#39;, &#39;factor_20&#39;, &#39;factor_21&#39;, &#39;factor_22&#39;, &#39;factor_23&#39;, &#39;factor_24&#39;, &#39;factor_25&#39;, &#39;factor_26&#39;, &#39;factor_27&#39;, &#39;factor_28&#39;, &#39;factor_29&#39;, &#39;factor_30&#39;, &#39;factor_31&#39;, &#39;factor_32&#39;, &#39;factor_33&#39;, &#39;factor_34&#39;, &#39;factor_35&#39;, &#39;factor_36&#39;, &#39;factor_37&#39;, &#39;factor_38&#39;, &#39;factor_39&#39;, &#39;factor_40&#39;, &#39;factor_41&#39;, &#39;factor_42&#39;, &#39;factor_43&#39;, &#39;factor_44&#39;, &#39;factor_45&#39;, &#39;factor_46&#39;, &#39;factor_47&#39;, &#39;factor_48&#39;, &#39;factor_49&#39;, &#39;factor_50&#39;, &#39;factor_51&#39;, &#39;factor_52&#39;, &#39;factor_53&#39;, &#39;factor_54&#39;, &#39;factor_55&#39;, &#39;factor_56&#39;, &#39;factor_57&#39;, &#39;factor_58&#39;, &#39;factor_59&#39;, &#39;factor_60&#39;, &#39;factor_61&#39;, &#39;factor_62&#39;, &#39;factor_63&#39;, &#39;factor_64&#39;, &#39;factor_65&#39;, &#39;factor_66&#39;, &#39;factor_67&#39;, &#39;factor_68&#39;, &#39;factor_69&#39;, &#39;factor_70&#39;, &#39;factor_71&#39;, &#39;factor_72&#39;, &#39;factor_73&#39;, &#39;factor_74&#39;, &#39;factor_75&#39;, &#39;factor_76&#39;, &#39;factor_77&#39;, &#39;factor_78&#39;, &#39;factor_79&#39;, &#39;factor_80&#39;, &#39;factor_81&#39;, &#39;factor_82&#39;, &#39;factor_83&#39;, &#39;factor_84&#39;, &#39;factor_85&#39;, &#39;factor_86&#39;, &#39;factor_87&#39;, &#39;factor_88&#39;, &#39;factor_89&#39;, &#39;x&#39;, &#39;y&#39;]
-(4110, 92) 92
-[&#39;factor_0&#39;, &#39;factor_1&#39;, &#39;factor_2&#39;, &#39;factor_3&#39;, &#39;factor_4&#39;, &#39;factor_5&#39;, &#39;factor_6&#39;, &#39;factor_7&#39;, &#39;factor_8&#39;, &#39;factor_9&#39;, &#39;factor_10&#39;, &#39;factor_11&#39;, &#39;factor_12&#39;, &#39;factor_13&#39;, &#39;factor_14&#39;, &#39;factor_15&#39;, &#39;factor_16&#39;, &#39;factor_17&#39;, &#39;factor_18&#39;, &#39;factor_19&#39;, &#39;factor_20&#39;, &#39;factor_21&#39;, &#39;factor_22&#39;, &#39;factor_23&#39;, &#39;factor_24&#39;, &#39;factor_25&#39;, &#39;factor_26&#39;, &#39;factor_27&#39;, &#39;factor_28&#39;, &#39;factor_29&#39;, &#39;factor_30&#39;, &#39;factor_31&#39;, &#39;factor_32&#39;, &#39;factor_33&#39;, &#39;factor_34&#39;, &#39;factor_35&#39;, &#39;factor_36&#39;, &#39;factor_37&#39;, &#39;factor_38&#39;, &#39;factor_39&#39;, &#39;factor_40&#39;, &#39;factor_41&#39;, &#39;factor_42&#39;, &#39;factor_43&#39;, &#39;factor_44&#39;, &#39;factor_45&#39;, &#39;factor_46&#39;, &#39;factor_47&#39;, &#39;factor_48&#39;, &#39;factor_49&#39;, &#39;factor_50&#39;, &#39;factor_51&#39;, &#39;factor_52&#39;, &#39;factor_53&#39;, &#39;factor_54&#39;, &#39;factor_55&#39;, &#39;factor_56&#39;, &#39;factor_57&#39;, &#39;factor_58&#39;, &#39;factor_59&#39;, &#39;factor_60&#39;, &#39;factor_61&#39;, &#39;factor_62&#39;, &#39;factor_63&#39;, &#39;factor_64&#39;, &#39;factor_65&#39;, &#39;factor_66&#39;, &#39;factor_67&#39;, &#39;factor_68&#39;, &#39;factor_69&#39;, &#39;factor_70&#39;, &#39;factor_71&#39;, &#39;factor_72&#39;, &#39;factor_73&#39;, &#39;factor_74&#39;, &#39;factor_75&#39;, &#39;factor_76&#39;, &#39;factor_77&#39;, &#39;factor_78&#39;, &#39;factor_79&#39;, &#39;factor_80&#39;, &#39;factor_81&#39;, &#39;factor_82&#39;, &#39;factor_83&#39;, &#39;factor_84&#39;, &#39;factor_85&#39;, &#39;factor_86&#39;, &#39;factor_87&#39;, &#39;factor_88&#39;, &#39;factor_89&#39;, &#39;x&#39;, &#39;y&#39;]
-(4015, 92) 92
-[&#39;factor_0&#39;, &#39;factor_1&#39;, &#39;factor_2&#39;, &#39;factor_3&#39;, &#39;factor_4&#39;, &#39;factor_5&#39;, &#39;factor_6&#39;, &#39;factor_7&#39;, &#39;factor_8&#39;, &#39;factor_9&#39;, &#39;factor_10&#39;, &#39;factor_11&#39;, &#39;factor_12&#39;, &#39;factor_13&#39;, &#39;factor_14&#39;, &#39;factor_15&#39;, &#39;factor_16&#39;, &#39;factor_17&#39;, &#39;factor_18&#39;, &#39;factor_19&#39;, &#39;factor_20&#39;, &#39;factor_21&#39;, &#39;factor_22&#39;, &#39;factor_23&#39;, &#39;factor_24&#39;, &#39;factor_25&#39;, &#39;factor_26&#39;, &#39;factor_27&#39;, &#39;factor_28&#39;, &#39;factor_29&#39;, &#39;factor_30&#39;, &#39;factor_31&#39;, &#39;factor_32&#39;, &#39;factor_33&#39;, &#39;factor_34&#39;, &#39;factor_35&#39;, &#39;factor_36&#39;, &#39;factor_37&#39;, &#39;factor_38&#39;, &#39;factor_39&#39;, &#39;factor_40&#39;, &#39;factor_41&#39;, &#39;factor_42&#39;, &#39;factor_43&#39;, &#39;factor_44&#39;, &#39;factor_45&#39;, &#39;factor_46&#39;, &#39;factor_47&#39;, &#39;factor_48&#39;, &#39;factor_49&#39;, &#39;factor_50&#39;, &#39;factor_51&#39;, &#39;factor_52&#39;, &#39;factor_53&#39;, &#39;factor_54&#39;, &#39;factor_55&#39;, &#39;factor_56&#39;, &#39;factor_57&#39;, &#39;factor_58&#39;, &#39;factor_59&#39;, &#39;factor_60&#39;, &#39;factor_61&#39;, &#39;factor_62&#39;, &#39;factor_63&#39;, &#39;factor_64&#39;, &#39;factor_65&#39;, &#39;factor_66&#39;, &#39;factor_67&#39;, &#39;factor_68&#39;, &#39;factor_69&#39;, &#39;factor_70&#39;, &#39;factor_71&#39;, &#39;factor_72&#39;, &#39;factor_73&#39;, &#39;factor_74&#39;, &#39;factor_75&#39;, &#39;factor_76&#39;, &#39;factor_77&#39;, &#39;factor_78&#39;, &#39;factor_79&#39;, &#39;factor_80&#39;, &#39;factor_81&#39;, &#39;factor_82&#39;, &#39;factor_83&#39;, &#39;factor_84&#39;, &#39;factor_85&#39;, &#39;factor_86&#39;, &#39;factor_87&#39;, &#39;factor_88&#39;, &#39;factor_89&#39;, &#39;x&#39;, &#39;y&#39;]
-(3639, 92) 92
-[&#39;factor_0&#39;, &#39;factor_1&#39;, &#39;factor_2&#39;, &#39;factor_3&#39;, &#39;factor_4&#39;, &#39;factor_5&#39;, &#39;factor_6&#39;, &#39;factor_7&#39;, &#39;factor_8&#39;, &#39;factor_9&#39;, &#39;factor_10&#39;, &#39;factor_11&#39;, &#39;factor_12&#39;, &#39;factor_13&#39;, &#39;factor_14&#39;, &#39;factor_15&#39;, &#39;factor_16&#39;, &#39;factor_17&#39;, &#39;factor_18&#39;, &#39;factor_19&#39;, &#39;factor_20&#39;, &#39;factor_21&#39;, &#39;factor_22&#39;, &#39;factor_23&#39;, &#39;factor_24&#39;, &#39;factor_25&#39;, &#39;factor_26&#39;, &#39;factor_27&#39;, &#39;factor_28&#39;, &#39;factor_29&#39;, &#39;factor_30&#39;, &#39;factor_31&#39;, &#39;factor_32&#39;, &#39;factor_33&#39;, &#39;factor_34&#39;, &#39;factor_35&#39;, &#39;factor_36&#39;, &#39;factor_37&#39;, &#39;factor_38&#39;, &#39;factor_39&#39;, &#39;factor_40&#39;, &#39;factor_41&#39;, &#39;factor_42&#39;, &#39;factor_43&#39;, &#39;factor_44&#39;, &#39;factor_45&#39;, &#39;factor_46&#39;, &#39;factor_47&#39;, &#39;factor_48&#39;, &#39;factor_49&#39;, &#39;factor_50&#39;, &#39;factor_51&#39;, &#39;factor_52&#39;, &#39;factor_53&#39;, &#39;factor_54&#39;, &#39;factor_55&#39;, &#39;factor_56&#39;, &#39;factor_57&#39;, &#39;factor_58&#39;, &#39;factor_59&#39;, &#39;factor_60&#39;, &#39;factor_61&#39;, &#39;factor_62&#39;, &#39;factor_63&#39;, &#39;factor_64&#39;, &#39;factor_65&#39;, &#39;factor_66&#39;, &#39;factor_67&#39;, &#39;factor_68&#39;, &#39;factor_69&#39;, &#39;factor_70&#39;, &#39;factor_71&#39;, &#39;factor_72&#39;, &#39;factor_73&#39;, &#39;factor_74&#39;, &#39;factor_75&#39;, &#39;factor_76&#39;, &#39;factor_77&#39;, &#39;factor_78&#39;, &#39;factor_79&#39;, &#39;factor_80&#39;, &#39;factor_81&#39;, &#39;factor_82&#39;, &#39;factor_83&#39;, &#39;factor_84&#39;, &#39;factor_85&#39;, &#39;factor_86&#39;, &#39;factor_87&#39;, &#39;factor_88&#39;, &#39;factor_89&#39;, &#39;x&#39;, &#39;y&#39;]
-(3673, 92) 92
-[&#39;factor_0&#39;, &#39;factor_1&#39;, &#39;factor_2&#39;, &#39;factor_3&#39;, &#39;factor_4&#39;, &#39;factor_5&#39;, &#39;factor_6&#39;, &#39;factor_7&#39;, &#39;factor_8&#39;, &#39;factor_9&#39;, &#39;factor_10&#39;, &#39;factor_11&#39;, &#39;factor_12&#39;, &#39;factor_13&#39;, &#39;factor_14&#39;, &#39;factor_15&#39;, &#39;factor_16&#39;, &#39;factor_17&#39;, &#39;factor_18&#39;, &#39;factor_19&#39;, &#39;factor_20&#39;, &#39;factor_21&#39;, &#39;factor_22&#39;, &#39;factor_23&#39;, &#39;factor_24&#39;, &#39;factor_25&#39;, &#39;factor_26&#39;, &#39;factor_27&#39;, &#39;factor_28&#39;, &#39;factor_29&#39;, &#39;factor_30&#39;, &#39;factor_31&#39;, &#39;factor_32&#39;, &#39;factor_33&#39;, &#39;factor_34&#39;, &#39;factor_35&#39;, &#39;factor_36&#39;, &#39;factor_37&#39;, &#39;factor_38&#39;, &#39;factor_39&#39;, &#39;factor_40&#39;, &#39;factor_41&#39;, &#39;factor_42&#39;, &#39;factor_43&#39;, &#39;factor_44&#39;, &#39;factor_45&#39;, &#39;factor_46&#39;, &#39;factor_47&#39;, &#39;factor_48&#39;, &#39;factor_49&#39;, &#39;factor_50&#39;, &#39;factor_51&#39;, &#39;factor_52&#39;, &#39;factor_53&#39;, &#39;factor_54&#39;, &#39;factor_55&#39;, &#39;factor_56&#39;, &#39;factor_57&#39;, &#39;factor_58&#39;, &#39;factor_59&#39;, &#39;factor_60&#39;, &#39;factor_61&#39;, &#39;factor_62&#39;, &#39;factor_63&#39;, &#39;factor_64&#39;, &#39;factor_65&#39;, &#39;factor_66&#39;, &#39;factor_67&#39;, &#39;factor_68&#39;, &#39;factor_69&#39;, &#39;factor_70&#39;, &#39;factor_71&#39;, &#39;factor_72&#39;, &#39;factor_73&#39;, &#39;factor_74&#39;, &#39;factor_75&#39;, &#39;factor_76&#39;, &#39;factor_77&#39;, &#39;factor_78&#39;, &#39;factor_79&#39;, &#39;factor_80&#39;, &#39;factor_81&#39;, &#39;factor_82&#39;, &#39;factor_83&#39;, &#39;factor_84&#39;, &#39;factor_85&#39;, &#39;factor_86&#39;, &#39;factor_87&#39;, &#39;factor_88&#39;, &#39;factor_89&#39;, &#39;x&#39;, &#39;y&#39;]
-(3592, 92) 92
-[&#39;factor_0&#39;, &#39;factor_1&#39;, &#39;factor_2&#39;, &#39;factor_3&#39;, &#39;factor_4&#39;, &#39;factor_5&#39;, &#39;factor_6&#39;, &#39;factor_7&#39;, &#39;factor_8&#39;, &#39;factor_9&#39;, &#39;factor_10&#39;, &#39;factor_11&#39;, &#39;factor_12&#39;, &#39;factor_13&#39;, &#39;factor_14&#39;, &#39;factor_15&#39;, &#39;factor_16&#39;, &#39;factor_17&#39;, &#39;factor_18&#39;, &#39;factor_19&#39;, &#39;factor_20&#39;, &#39;factor_21&#39;, &#39;factor_22&#39;, &#39;factor_23&#39;, &#39;factor_24&#39;, &#39;factor_25&#39;, &#39;factor_26&#39;, &#39;factor_27&#39;, &#39;factor_28&#39;, &#39;factor_29&#39;, &#39;factor_30&#39;, &#39;factor_31&#39;, &#39;factor_32&#39;, &#39;factor_33&#39;, &#39;factor_34&#39;, &#39;factor_35&#39;, &#39;factor_36&#39;, &#39;factor_37&#39;, &#39;factor_38&#39;, &#39;factor_39&#39;, &#39;factor_40&#39;, &#39;factor_41&#39;, &#39;factor_42&#39;, &#39;factor_43&#39;, &#39;factor_44&#39;, &#39;factor_45&#39;, &#39;factor_46&#39;, &#39;factor_47&#39;, &#39;factor_48&#39;, &#39;factor_49&#39;, &#39;factor_50&#39;, &#39;factor_51&#39;, &#39;factor_52&#39;, &#39;factor_53&#39;, &#39;factor_54&#39;, &#39;factor_55&#39;, &#39;factor_56&#39;, &#39;factor_57&#39;, &#39;factor_58&#39;, &#39;factor_59&#39;, &#39;factor_60&#39;, &#39;factor_61&#39;, &#39;factor_62&#39;, &#39;factor_63&#39;, &#39;factor_64&#39;, &#39;factor_65&#39;, &#39;factor_66&#39;, &#39;factor_67&#39;, &#39;factor_68&#39;, &#39;factor_69&#39;, &#39;factor_70&#39;, &#39;factor_71&#39;, &#39;factor_72&#39;, &#39;factor_73&#39;, &#39;factor_74&#39;, &#39;factor_75&#39;, &#39;factor_76&#39;, &#39;factor_77&#39;, &#39;factor_78&#39;, &#39;factor_79&#39;, &#39;factor_80&#39;, &#39;factor_81&#39;, &#39;factor_82&#39;, &#39;factor_83&#39;, &#39;factor_84&#39;, &#39;factor_85&#39;, &#39;factor_86&#39;, &#39;factor_87&#39;, &#39;factor_88&#39;, &#39;factor_89&#39;, &#39;x&#39;, &#39;y&#39;]
-(3460, 92) 92
-</pre></div></div>
 </div>
 <p>Plot the clusters</p>
 <div class="nbinput docutils container">
@@ -685,67 +550,6 @@ Text(0.5, 1.0, &#39;Log distance histogram&#39;)
 </div>
 <div class="output_area docutils container">
 <div class="highlight"><pre>
-clustering ...
-fitting ...
-  |======================================================================| 100%
-4226
--0.0029189670410734382
-clustering ...
-fitting ...
-  |======================================================================| 100%
-4384
-0.0029752205162784863
-clustering ...
-fitting ...
-  |======================================================================| 100%
-4789
-0.002773250561788427
-clustering ...
-fitting ...
-  |======================================================================| 100%
-4634
--0.007619663761559501
-clustering ...
-fitting ...
-  |======================================================================| 100%
-3661
--0.006176624373259776
-clustering ...
-fitting ...
-  |======================================================================| 100%
-3498
-0.003983895286092533
-clustering ...
-fitting ...
-  |======================================================================| 100%
-4110
-0.0
-clustering ...
-fitting ...
-  |======================================================================| 100%
-4015
-0.0
-clustering ...
-fitting ...
-  |======================================================================| 100%
-3639
-0.0
-clustering ...
-fitting ...
-  |======================================================================| 100%
-3673
--0.003095336622925141
-clustering ...
-fitting ...
-  |======================================================================| 100%
-3592
-0.0
-clustering ...
-fitting ...
-  |======================================================================| 100%
-3460
-0.0
-----------------------------------------
 adjusted_rand_score: all sample avg -0.0008, 8 sample avg: -0.0009
 </pre></div></div>
 </div>
